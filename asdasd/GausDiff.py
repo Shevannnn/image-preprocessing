@@ -17,7 +17,7 @@ plt.title('Original Image')
 plt.imshow(image, cmap='gray')
 
 plt.subplot(1,2,2)
-plt.title('Sharpened Image')
+plt.title('woof Image')
 plt.imshow(dog, cmap='gray')
 
 plt.show()
