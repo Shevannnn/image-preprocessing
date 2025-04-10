@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b779536-ba6a-4391-8158-ed35efc29784</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ImageSegmentation.py</StartupFile>
+    <StartupFile>GausDiff.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,13 @@
     <Compile Include="EdgeDetection.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="EdgeEnhancement.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="FunctionalModel.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GausDiff.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Grayscale.py" />
@@ -32,6 +38,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ImageSegmentation.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NoisReduction.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unsharp.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
